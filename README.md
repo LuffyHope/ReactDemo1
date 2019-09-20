@@ -1,6 +1,6 @@
 # ReactDemo1
 React Native调用android的功能
-# android端：
+# Android端：
 ### 第一步创建android被调用的对象：
 创建一个类继承ReactContextBaseJavaModule
 
@@ -66,7 +66,7 @@ public class MainApplication extends Application implements ReactApplication {
 ```
 >到这里Android端所需要的准备就完毕了。 下面为js端需要做的事情。
 
-#js端：
+# JS端：
 ### 第一步添加依赖：
 ```
 import {NativeModules} from 'react-native';
